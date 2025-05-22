@@ -8,7 +8,7 @@
 
 ## Description
 
-This repository contains processing code to analyze the molecular dynamics trajectories evaluated in the paper "LNPDB: structure-function database of lipid nanoparticles to advance data-driven design for nucleic acid delivery" (under review).
+This repository contains processing code to analyze the molecular dynamics trajectories evaluated in the paper "LNPDB: structure-function database of lipid nanoparticles to advance data-driven design for nucleic acid delivery" (*under review*).
 
 _____
 
