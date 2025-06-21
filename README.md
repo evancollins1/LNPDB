@@ -8,7 +8,7 @@
 
 ## Description
 
-This repository includes code to analyze molecular dynamics trajectories and training the LiON deep learning model ([Witten et al., *Nat Biotech*, 2024](https://www.nature.com/articles/s41587-024-02490-y); [original repo](https://github.com/jswitten/LNP_ML)) for the LNP formulations in LNPDB, as detailed in the paper "LNPDB: structure-function database of lipid nanoparticles to advance data-driven design for nucleic acid delivery" (*Under review*).
+This repository includes code to analyze molecular dynamics trajectories and training the LiON deep learning model for the LNP formulations in LNPDB, as detailed in the paper "LNPDB: structure-function database of lipid nanoparticles to advance data-driven design for nucleic acid delivery" (*Under review*).
 
 _____
 
