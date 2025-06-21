@@ -121,7 +121,7 @@ do
 done
 ```
 
-To used the trained models to predict delivery efficacy for new LNP data, place your new LNP data into the folder `/LNPDB_for_LiON`. Note that your new LNP data should be organized into two files: `insilico.csv` (see `LNPDB_for_LiON/cv_splits/cv_0/train.csv` for expected column organization) and `insilico_extra_x.csv` (see `LNPDB_for_LiON/cv_splits/cv_0/train_extra_x.csv` for expected column organization). Then run the following.
+To used the trained models to predict delivery efficacy for new LNP data, place your new LNP data into the folder `/LNPDB_for_LiON`. Note that your new LNP data should be organized into two files: `insilico.csv` (see `LNPDB_for_LiON/cv_splits/cv_0/train.csv` for expected column organization) and `insilico_extra_x.csv` (see `LNPDB_for_LiON/cv_splits/cv_0/train_extra_x.csv` for expected column organization). Next, run the following.
 
 ```
 for i in {0..4}
@@ -133,7 +133,6 @@ do
     --features_path data/LNPDB_for_LiON/insilico_extra_x.csv \
     --preds_path data/LNPDB_for_LiON/cv_splits/cv_$i/insilico_results.csv
 done
-
 ```
 
 Moreover, fingerprint embeddings can be extracted from LiON for your new LNP data using the following command.
