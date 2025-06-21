@@ -15,4 +15,3 @@ dependencies:
   - pip
   - pip:
       - jupyter
-      - chemprop==1.7.0

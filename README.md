@@ -88,6 +88,14 @@ To analyze the provided molecular dynamics trajectories, follow along the Jupyte
 
 To train the LiON deep learning model (based on [Chemprop](https://github.com/chemprop/chemprop)) on the LNP formulations of LNPDB, the database has been split (80% train/20% validation) into five cross-validation splits. 
 
+We will create a different conda environment to run LiON. As introduced in our prior [repo](https://github.com/jswitten/LNP_ML), we will create conda environment `lnp_ml` as follows.
+
+```
+conda create -n lnp_ml python=3.8
+conda activate lnp_ml
+pip install chemprop==1.7.0
+```
+
 To train LiON on LNPDB, run the following commands in terminal. Note that the trained model checkpoints are already provided in this repository, so it is not necessary to run the following commands.
 
 ```
