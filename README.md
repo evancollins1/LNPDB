@@ -146,5 +146,9 @@ done
 Moreover, fingerprint embeddings can be extracted from LiON for your new LNP data using the following command.
 
 ```
-chemprop_fingerprint --checkpoint_dir data/LNPDB_for_LiON/cv_splits/cv_0/trained_model_checkpoints --test_path data/LNPDB_for_LiON/insilico.csv --features_path data/LNPDB_for_LiON/insilico_extra_x.csv --preds_path data/LNPDB_for_LiON/cv_splits/cv_0/fingerprints.csv
+chemprop_fingerprint \
+  --checkpoint_dir data/LNPDB_for_LiON/cv_splits/cv_0/trained_model_checkpoints \
+  --test_path data/LNPDB_for_LiON/insilico.csv \
+  --features_path data/LNPDB_for_LiON/insilico_extra_x.csv \
+  --preds_path data/LNPDB_for_LiON/cv_splits/cv_0/fingerprints.csv
 ```
