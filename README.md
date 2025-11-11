@@ -188,12 +188,12 @@ Install necessary dependencies as follows.
 pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113  --extra-index-url https://download.pytorch.org/whl/cu113
 pip install torch-geometric==2.2.0 torch-sparse==0.6.16 torch-scatter==2.1.0 -f https://data.pyg.org/whl/torch-1.12.0+cu113.html
 pip install -r requirements.txt
-pip install rdkit
-pip install "numpy<1.23.0,>=1.16.5"
 pip install --force-reinstall mordred
+pip install "numpy<1.23.0,>=1.16.5"
 git clone https://github.com/NVIDIA/apex.git
 cd apex
 pip install -v --no-build-isolation --disable-pip-version-check .
+pip install jupyter
 ```
 
 Refer to the notebook `/scripts/LNPDB_AGILE_training.ipynb` to train and evaluate AGILE models. The notebook involves the following: (1) installing requirements, (2) splitting data into test/train splits, (3) finetuning models on cross-validation splits, (4) generating LNPDB data feature descriptors, (5) evaluating models on AGILE and LNPDB data.
