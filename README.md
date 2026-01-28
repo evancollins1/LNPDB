@@ -1,4 +1,4 @@
-# LNPDB: Lipid Nanoparticle Database towards structure-function modeling and data-driven design for nucleic acid delivery
+# Lipid Nanoparticle Database (LNPDB) towards structure-function modeling and data-driven design for nucleic acid delivery
 
 <p align="center">
   <img src="data/misc/LNPDB_fig1.png" alt="alt text" width="800px" align="middle"/>
@@ -8,7 +8,7 @@
 
 ## Description
 
-This repository primarily includes the database itself and code to run deep learning models and analyze molecular dynamics trajectories, as detailed in the paper "LNPDB: Lipid Nanoparticle Database towards structure-function modeling and data-driven design for nucleic acid delivery" (*In revision*).
+This repository primarily includes the database itself and code to run deep learning models and analyze molecular dynamics trajectories, as detailed in the paper ["Lipid Nanoparticle Database towards structure-function modeling and data-driven design for nucleic acid delivery" (*Nature Communications*, (2026))](https://doi.org/10.1038/s41467-026-68818-1).
 
 The entire LNPDB can be found here in this repo in `/data/LNPDB_for_LiON/LNPDB.csv`; however, we encourage users to instead visit https://lnpdb.molcube.com to interactively search and download the database.
 
@@ -206,8 +206,10 @@ ______
 
 # Citation
 
-**LNPDB: Lipid Nanoparticle Database towards structure-function modeling and data-driven design for nucleic acid delivery**
+**Lipid Nanoparticle Database towards structure-function modeling and data-driven design for nucleic acid delivery**
+
+DOI: [https://doi.org/10.1038/s41467-026-68818-1](https://doi.org/10.1038/s41467-026-68818-1)
 
 Evan Collins\*, Jungyong Ji\*, Sung-Gwang Kim\*, Jacob Witten, Seonghoon Kim, Richard Zhu, Peter Park, Minjun Jung, Aron Park, Rajith S. Manan, Arnab Rudra, Gyochang Keum, Eun-Kyoung Bang, Jun-O Jin, William J. Jeang, Robert S. Langer, Daniel G. Anderson\*, Wonpil Im\*
 
-*In revision*
+*Nature Communications* (2026)
